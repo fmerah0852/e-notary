@@ -1,0 +1,34 @@
+name: e_notary
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.9.1
+  flutter_riverpod: ^2.6.1
+  file_picker: ^8.0.6
+  path: ^1.9.0
+  intl: ^0.20.2 # Untuk format tanggal
+  url_launcher: ^6.3.0
+  webview_flutter: ^4.8.0
+  syncfusion_flutter_signaturepad: ^26.1.35
+  flutter_file_downloader: ^2.1.0 # Untuk menangani proses download dengan mudah
+  permission_handler: ^11.3.1     # Untuk mengelola perizinan Android/iOS
+  open_file: ^3.3.2  # Opsional: untuk membuka file setelah di-download
+  dio: ^5.4.3+1
+  path_provider: ^2.1.3
+  device_info_plus: ^10.1.0
+  # Tambahkan dependensi lain jika perlu
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
